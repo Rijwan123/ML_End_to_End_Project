@@ -1,9 +1,0 @@
-app.py --> fatsAPI file
-
-NewApp.py --> fast Api code created for UI and for front end communication
-
-======================================================================
-
-1. Machine learning model trained
-2. fast API - Web framwork used.
-3. Front end: HTML,CSS, Javascripts used.
