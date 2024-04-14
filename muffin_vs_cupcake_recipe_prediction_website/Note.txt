@@ -1,0 +1,10 @@
+app.py --> fatsAPI file
+
+NewApp.py --> fast Api code created for UI and for front end communication
+
+======================================================================
+We have created web site using below technologies :
+
+1. Machine learning model trained using python
+2. fast API - Web framwork used.
+3. Front end: HTML,CSS, Javascripts used.

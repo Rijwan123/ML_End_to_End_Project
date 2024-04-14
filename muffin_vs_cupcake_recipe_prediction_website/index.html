@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muffin vs Cupcake Prediction</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+
+</head>
+<body>
+    <h1>Muffin vs Cupcake Recipe Prediction</h1>
+    <form id="recipeForm">
+        <label for="flour">Flour:</label>
+        <input type="text" id="flour" name="flour">
+        <span class="error-message" id="flourError"></span>
+
+        <label for="sugar">Sugar:</label>
+        <input type="text" id="sugar" name="sugar">
+        <span class="error-message" id="sugarError"></span>
+
+        <button type="submit">Predict</button>
+
+    </form>
+
+    <div class="prediction-container">
+        <span class="prediction-label">Prediction:</span>
+        <div id="predictionResult" class="prediction"></div>
+    </div>
+
+    <script type="text/javascript" src="/static/script.js">
+
+    </script>
+</body>
+</html>
